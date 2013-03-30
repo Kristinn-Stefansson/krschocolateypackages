@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>PSWindowsUpdate</id>
+    <title>Windows Update PowerShell Module</title>
+    <version>{{PackageVersion}}</version>
+        <authors>Michal Gajda</authors>
+        <owners>Kristinn Stefansson</owners>
+        <licenseUrl>http://gallery.technet.microsoft.com/scriptcenter/site/2d191bcd-3308-4edd-9de2-88dff796b0bc/eulapartial?licenseType=TechNet</licenseUrl>
+        <projectUrl>http://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc/</projectUrl>
+        <iconUrl>http://upload.wikimedia.org/wikipedia/en/7/7f/Windows_PowerShell_icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The PSWindowsUpdate module allow you to manage Windows Update on your computer. Module contain set of function to check, download and install or remove update from local machine. Especially useful on machines in core edition like Windows Server 2008 R2.
+
+Module can be installed manualy by downloading Zip file and extract in two places:
+
+%USERPROFILE%\Documents\WindowsPowerShell\Modules
+%WINDIR%\System32\WindowsPowerShell\v1.0\Modules
+Importing the module
+
+PS &gt; Import-Module PSWindowsUpdate
+Prerequisites
+
+Windows PowerShell 2.0</description>
+        <summary>This function is a piece of PSWindowsUpdate module to manage Windows Update on a computer system running Windows. Whole module contain 9 function to check, download and install updates from PowerShell</summary>
+        <releaseNotes>
+v1.4.5 - Changed default search pre crteria isHidden = 0 to show only nothidden updates. Added WithHidden param to get all updates (hidden and not) and removed isNotHidden param (now it is default criteria). Added warning if don't find any updates.
+v1.4.4 - Added NotCategory, NotKBArticleID, NotTitle param to filter updates that's not match of these value.
+v1.4.3 - Added isNotHidden param to show only not hidden updates. Default still show whole updates (hidden and not hidden).
+v1.4.2 - Added IgroneReboot param to hide prompt for reboot, but do not reboot automaticaly.
+v1.4.1 - Added ability to define own search criteria. Correct fast ServerSelection param -WindowsUpdate and -MicrosoftUpdate.
+v1.4    - Code optimized, new filtering criteria, simple remote to obtain information about updates.
+		</releaseNotes>
+        <tags>PowerShell admin Scripting Windows Update</tags>
+        <dependencies />
+    </metadata>
+</package>
