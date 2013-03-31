@@ -1,6 +1,6 @@
 ﻿$packageName = 'PSWindowsUpdate' # arbitrary name for the package, used in messages
-$url = '{{DownloadUrl}}' # download url
-$url64 = '{{DownloadUrl}}' # 64bit URL 
+$url = 'http://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc/file/41459/20/PSWindowsUpdate.zip' # download url
+$url64 = 'http://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc/file/41459/20/PSWindowsUpdate.zip' # 64bit URL 
 
 try { 
   $installDir = Join-Path $PSHome "Modules"
