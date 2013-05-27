@@ -17,7 +17,7 @@
         <summary>SpecFlow - ATDD and BDD for .NET</summary>
         <releaseNotes>Updated to version 1.9.2.</releaseNotes>
         <copyright>Copyright (c) 2009, TechTalk</copyright>
-        <tags>specflow atdd bdd cucumber chocolatey admin</tags>
+        <tags>specflow atdd bdd cucumber vsix visualstudio tester admin</tags>
         <dependencies />
     </metadata>
 </package>
