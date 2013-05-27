@@ -1,8 +1,7 @@
 ﻿try {
-    $installPath = Join-Path $PSHome  "Modules\PSWindowsUpdate"
-    Remove-Item -Recurse -Force $installPath
-    Write-ChocolateySuccess 'PSWindowsUpdate'
+	# Here we would call VsixInstaller.exe /U but out of scope as of now
+    # Write-ChocolateySuccess 'SpecFlow'
 } catch {
-  Write-ChocolateyFailure 'PSWindowsUpdate' $($_.Exception.Message)
+  Write-ChocolateyFailure 'SpecFlow' $($_.Exception.Message)
   throw
 }
