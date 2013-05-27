@@ -13,7 +13,7 @@
       <string>LastUpdateCheck</string>
     </key>
     <value>
-      <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEDiUqPZDB9AIOJSo9kMH0IgL</string>
+      <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEDh1/neMKNAIOHX+d4wo0IgL</string>
     </value>
   </item>
   <item>
@@ -29,7 +29,7 @@
       <string>MainForm/Location</string>
     </key>
     <value>
-      <string>System.Drawing.Point:557,409</string>
+      <string>System.Drawing.Point:83,206</string>
     </value>
   </item>
   <item>
@@ -125,7 +125,7 @@
       <string>olvJobs/Target:Width</string>
     </key>
     <value>
-      <string>System.Int32:179</string>
+      <string>System.Int32:119</string>
     </value>
   </item>
   <item>
@@ -261,7 +261,7 @@
       <string>PreUpdateCommand</string>
     </key>
     <value>
-      <string>System.String:chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp {file} /disablepush</string>
+      <string>System.String:chocopkgup /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp {file} /disablepush </string>
     </value>
   </item>
   <item>
@@ -447,7 +447,7 @@
       <string>EditVariablesDialog/Size</string>
     </key>
     <value>
-      <string>System.Drawing.Size:1361,855</string>
+      <string>System.Drawing.Size:1485,855</string>
     </value>
   </item>
   <item>
@@ -455,7 +455,7 @@
       <string>EditVariablesDialog/Location</string>
     </key>
     <value>
-      <string>System.Drawing.Point:161,103</string>
+      <string>System.Drawing.Point:289,98</string>
     </value>
   </item>
   <item>
@@ -495,7 +495,7 @@
       <string>LogDialog/Size</string>
     </key>
     <value>
-      <string>System.Drawing.Size:1452,622</string>
+      <string>System.Drawing.Size:1227,622</string>
     </value>
   </item>
   <item>
@@ -503,7 +503,7 @@
       <string>LogDialog/Location</string>
     </key>
     <value>
-      <string>System.Drawing.Point:435,377</string>
+      <string>System.Drawing.Point:588,468</string>
     </value>
   </item>
   <item>
