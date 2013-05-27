@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>6340688</LastFileSize>
-    <LastFileDate>2013-04-14T16:21:40.9298962</LastFileDate>
+    <LastFileSize>6498229</LastFileSize>
+    <LastFileDate>2013-04-22T05:47:54+00:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -155,11 +155,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\Setup_MakeMKV_v1.8.0.exe</PreviousLocation>
+    <PreviousLocation>C:\Chocolatey\_work\Setup_MakeMKV_v1.8.1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-04-14T16:21:40.9298962</LastUpdated>
+    <LastUpdated>2013-04-23T20:52:25.5043192+00:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://www.makemkv.com/download/Setup_MakeMKV_v{version}.exe</FixedDownloadUrl>
     <Name>MakeMKV</Name>
@@ -235,8 +235,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>29105</LastFileSize>
-    <LastFileDate>2013-03-31T16:50:14.0063907</LastFileDate>
+    <LastFileSize>29236</LastFileSize>
+    <LastFileDate>2013-04-28T13:23:24.3902653+00:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -259,7 +259,7 @@
             <Regex>v\.1</Regex>
             <Url>http://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc/description</Url>
             <StartText>&lt;span id="47808"&gt;v</StartText>
-            <EndText />
+            <EndText> - </EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -276,22 +276,6 @@
             <Regex />
             <TextualContent>""</TextualContent>
             <Name>url64</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
-          <string>releaseNotes</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>http://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc/description</Url>
-            <StartText>&lt;h3&gt;Change Log:&lt;/h3&gt;</StartText>
-            <EndText>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</EndText>
-            <Name>releaseNotes</Name>
           </UrlVariable>
         </value>
       </item>
@@ -322,7 +306,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-03-31T16:50:14.0063907</LastUpdated>
+    <LastUpdated>2013-04-28T13:23:24.3917655+00:00</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>http://gallery.technet.microsoft.com/scriptcenter/2d191bcd-3308-4edd-9de2-88dff796b0bc/file/41459{downloadPath}</FixedDownloadUrl>
     <Name>PSWindowsUpdate</Name>
@@ -399,7 +383,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>5368886</LastFileSize>
-    <LastFileDate>2012-02-27T21:03:01+00:00</LastFileDate>
+    <LastFileDate>2013-04-14T17:44:49.3978512</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -517,7 +501,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-04-14T16:42:22.8771035+00:00</LastUpdated>
+    <LastUpdated>2013-04-14T17:44:49.3978512</LastUpdated>
     <TargetPath>C:\Chocolatey\_work\</TargetPath>
     <FixedDownloadUrl>{downloadPath}</FixedDownloadUrl>
     <Name>ScanTailor</Name>
