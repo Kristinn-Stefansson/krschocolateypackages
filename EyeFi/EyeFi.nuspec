@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>EyeFi</id>
+    <title>EyeFi</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Eye-Fi, Inc</authors>
+    <owners>Kristinn-Stefansson</owners>
+    <summary>EyeFi software works with other Eye-Fi solutions, memory cards for cameras and apps for iOS and Android, to deliver media content to your PC.</summary>
+    <description>
+	Eye-Fi desktop software consists of two parts: a small application (Eye-Fi Helper) that runs on your computer and a graphic interface application (Eye-Fi Center) that runs independently of a web browser or internet connection:
+		Mangage and view how and where your card uploads photos and videos
+		Republish items to different sharing sites (e.g. upload to Flickr, then to Facebook)
+		View photo &amp; video uploads by date with a calendar
+	</description>
+    <projectUrl>http://www.eye.fi/</projectUrl>
+    <tags>eyefi eye fi video images media</tags>
+    <copyright></copyright>
+    <licenseUrl>http://support.eye.fi/downloads/release-notes/center/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>http://ecx.images-amazon.com/images/I/61VgzPA-C5L._SL500_AA300_.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>Updated to version {{PackageVersion}}.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>

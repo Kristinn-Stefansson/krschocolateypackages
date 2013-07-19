@@ -245,7 +245,7 @@
       <string>ApplicationJobDialog/Location</string>
     </key>
     <value>
-      <string>System.Drawing.Point:20,274</string>
+      <string>System.Drawing.Point:18,600</string>
     </value>
   </item>
   <item>
@@ -439,7 +439,7 @@
       <string>ProgressDialog/Size</string>
     </key>
     <value>
-      <string>System.Drawing.Size:292,101</string>
+      <string>System.Drawing.Size:292,102</string>
     </value>
   </item>
   <item>
