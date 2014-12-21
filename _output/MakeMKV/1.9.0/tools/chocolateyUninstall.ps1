@@ -13,15 +13,15 @@ if ($is64bit) {
 
 if (Test-Path $unpath ) {
 	try {
-		# Prompt to uninstall a previous version, as installing on top of the current version is not supported, the uninstaller runs async and removes the new version.
+		# Prompt to uninstall a previous version, as unnstalling silently is not supported, the uninstaller runs async with UI.
 		Start-ChocolateyProcessAsAdmin "$silentArgs" "$unpath" -validExitCodes $validExitCodes
 	}
 	catch {
 		# Silently swallow errors on uninstall.
 	}
-	Write-ChocolateyFailure $packageName "A previous version is installed. As MakeMKV does not currently offer a silent uninstaller, please manually uninstall the program and run the installer again."
+	Write-ChocolateyFailure $packageName "As MakeMKV does not currently offer a silent uninstaller, please manually uninstall the program and run the uninstalle command again to remove the Chocolatey package."
 }
 else {
-	# installer, will assert administrative rights
-	Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes
+	# The uninstaller actually does nothing under the current restrictions with the Nulloft uninstaller for MakeMKV.
+	# Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
 }
