@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>crashplan</id>
-    <title>CrashPlan</title>
-    <version>{{PackageVersion}}</version>
+    <title>CrashPlan - Code42</title>
+    <version>4.5.2</version>
     <authors>Code 42 Software</authors>
     <owners>Kristinn-Stefansson</owners>
     <summary>CrashPlan is a backup solution that lets you back up back up to other computers, external hard drives or even computers that belong to friends and family for free.</summary>
@@ -20,7 +20,7 @@ CrashPlan auto-updates to the latest version. You do not need to download it aga
 	<packageSourceUrl>https://github.com/Kristinn-Stefansson/krschocolateypackages/tree/master/CrashPlan</packageSourceUrl>
 	<dependencies>
 	</dependencies>
-    <releaseNotes>Updated to version {{PackageVersion}}.</releaseNotes>
+    <releaseNotes>Updated to version 4.5.2.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
