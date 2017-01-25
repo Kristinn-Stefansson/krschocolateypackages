@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>MakeMKV</id>
+    <title>MakeMKV</title>
+    <version>1.10.4</version>
+    <authors>GuinpinSoft inc</authors>
+    <owners>Kristinn-Stefansson</owners>
+    <summary>MakeMKV is your one-click solution to convert video that you own into free and patents-unencumbered format that can be played everywhere.</summary>
+    <description>
+MakeMKV is your one-click solution to convert video that you own into free and patents-unencumbered format that can be played everywhere. It is currently in beta and free using the registration key that can be found in the forums (see licence).
+
+MakeMKV is a format converter, otherwise called "transcoder". It converts the video clips from proprietary (and usually encrypted) disc into a set of MKV files, preserving most information but not changing it in any way. The MKV format can store multiple video/audio tracks with all meta-information and preserve chapters. There are many players that can play MKV files nearly on all platforms, and there are tools to convert MKV files to many formats, including DVD and Blu-ray discs. 
+
+Additionally MakeMKV can instantly stream decrypted video without intermediate conversion to wide range of players, so you may watch Blu-ray and DVD discs with your favorite player on your favorite OS or on your favorite device.
+	</description>
+    <projectUrl>http://www.makemkv.com/</projectUrl>
+    <tags>makemkv video media player multimedia mkv</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.makemkv.com/forum2/viewtopic.php?f=5&amp;t=1053</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/Kristinn-Stefansson/krschocolateypackages/c215b4ef02296c45439e7882b1908202beab9059/MakeMKV/MakeMKV.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>Updated to version 1.10.4. Added failure when previous version installed, as no method of silent uninstall seems to work.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
