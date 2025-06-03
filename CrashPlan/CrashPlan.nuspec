@@ -6,13 +6,26 @@
     <version>{{PackageVersion}}</version>
     <authors>Code 42 Software</authors>
     <owners>Kristinn-Stefansson</owners>
-    <summary>CrashPlan is a backup solution that lets you back up back up to other computers, external hard drives or even computers that belong to friends and family for free.</summary>
+    <summary>**DEPRECATED** - CrashPlan consumer service has been discontinued. This package is no longer maintained.</summary>
     <description>
-Unlike ordinary online backup, CrashPlan lets you back up to other destinations in addition to online. You can back up to your other computers, external hard drives and to computers that belong to friends and family for free. If you want to back up online too, purchase a CrashPlan+ subscription. 
+**DEPRECATED PACKAGE - DO NOT INSTALL**
 
-CrashPlan auto-updates to the latest version. You do not need to download it again once it's installed. If your download hasn't started or you need to download CrashPlan for another operating system, please use the links to the left.</description>
+This package is deprecated as CrashPlan for Home (consumer) service has been discontinued by Code42. The consumer version of CrashPlan is no longer available for download or use.
+
+**Alternative backup solutions:**
+- Windows Backup and Restore
+- File History (Windows 10/11)
+- OneDrive
+- Google Drive
+- Dropbox
+- Backblaze Personal Backup
+- Carbonite
+
+If you have CrashPlan installed, please consider migrating to one of the alternative backup solutions listed above.
+
+This package will display a deprecation warning and will not install CrashPlan.</description>
     <projectUrl>http://www.crashplan.com/consumer/crashplan.html</projectUrl>
-    <tags>Backup CrashPlan admin</tags>
+    <tags>Backup CrashPlan admin deprecated discontinued</tags>
     <copyright>Code 42 Software.</copyright>
     <licenseUrl>http://www.crashplan.com/consumer/compare.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -20,7 +33,7 @@ CrashPlan auto-updates to the latest version. You do not need to download it aga
 	<packageSourceUrl>https://github.com/Kristinn-Stefansson/krschocolateypackages/tree/master/CrashPlan</packageSourceUrl>
 	<dependencies>
 	</dependencies>
-    <releaseNotes>Updated to version {{PackageVersion}}.</releaseNotes>
+    <releaseNotes>DEPRECATED: CrashPlan consumer service discontinued. Package converted to deprecation notice. Use alternative backup solutions.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
