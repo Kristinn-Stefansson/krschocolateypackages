@@ -1,7 +1,7 @@
 $local = Split-Path -parent $PSCommandPath
 $pack = "$local\Packages"
 mkdir "$pack" -ErrorAction Ignore
-$projects = @("MakeMKV","PSWindowsUpdate","ScanTailor","SpecFlow")
+$projects = @("PSWindowsUpdate","ScanTailor","SpecFlow")
 
 foreach($proj in $projects)
 {
